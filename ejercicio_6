@@ -1,0 +1,15 @@
+Algoritmo Secuencia_de_30_numeros
+	Definir num,contador,suma,producto como real 
+	suma = 0
+	producto = 1
+	contador = 0
+	Escribir "digite un numeros de 30 digitos"
+	Para indice <-1 Hasta 30 Con paso 1 Hacer
+		Leer num;
+		suma = suma + num
+		producto = producto * num
+		contador = contador + 1;                       
+	Finpara
+	Escribir "la suma es: ", suma;
+	Escribir "el producto es: ", producto;
+FinAlgoritmo

@@ -1,0 +1,11 @@
+Algoritmo ejercicio_07
+	Definir num,suma como entero
+	suma = 0
+	Escribir "dame un numero"
+	Leer num
+	mientras (num > 0) hacer
+		suma = suma + num
+		leer num
+	finmientras
+	escribir "la suma es:", suma;
+FinAlgoritmo

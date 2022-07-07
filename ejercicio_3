@@ -1,0 +1,15 @@
+Algoritmo numero_mayor
+	Definir a,b, como entero
+	a = 0
+	b = 0
+	escribir "digite un numero"
+	Leer a 
+	Escribir "digite otro numero"
+	Leer b 
+	si a > b Entonces
+		Escribir a ," es mayor "
+	SiNo
+		Escribir b ," es mayor "
+	FinSi
+	
+FinAlgoritmo

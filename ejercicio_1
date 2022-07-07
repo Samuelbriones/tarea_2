@@ -1,0 +1,10 @@
+Algoritmo par_impar 
+	Escribir "ingrese n�mero" 
+	Leer a
+	si a%2=0 Entonces
+		Escribir a, " el n�mero es par" 
+	sino 
+		Escribir a, " el n�mero no es par" 
+		
+	FinSi
+FinAlgoritmo

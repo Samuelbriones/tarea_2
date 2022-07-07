@@ -1,0 +1,12 @@
+Algoritmo ejercicio_8
+	Definir n1,n2,multi Como entero;
+	Escribir "introduce el primer n�mero"
+	Leer n1
+	Escribir "introduce el segundo n�mero"
+	Leer n2
+	Para i<-1 Hasta n2 Con Paso 1 Hacer
+		multi = multi + n1
+		Escribir n1
+	Finpara
+	Escribir " el resultado de lasuma sucesiva es:  ", multi 
+FinAlgoritmo

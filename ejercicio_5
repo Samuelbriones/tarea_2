@@ -1,0 +1,11 @@
+Algoritmo multiplicar
+	Definir indice,num,superior,inferior Como entero
+	inferior <- 1;
+	superior <- 10;
+	indice <- 1;
+	Escribir "ingrese un n�mero";	
+	leer num;
+	Para indice <- inferior Hasta superior Con Paso 1 Hacer
+		Escribir num ,(" * "), indice ,(" = "), num*indice;
+	Finpara
+FinAlgoritmo

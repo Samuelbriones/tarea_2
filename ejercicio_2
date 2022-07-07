@@ -1,0 +1,12 @@
+Algoritmo producto
+	Definir a,b,c como entero
+	a = 0
+	b = 0
+	Escribir " dame un numero"
+	leer a 
+	Escribir "dame otro numero"
+	leer b 
+	c = a * b
+	Escribir " el producto es:  ", c
+	
+FinAlgoritmo
